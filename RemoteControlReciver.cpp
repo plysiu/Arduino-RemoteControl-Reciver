@@ -17,7 +17,7 @@ void setup() {
 	vw_set_rx_pin(receive_pin);
 	vw_set_ptt_pin(transmit_en_pin);
 	vw_set_ptt_inverted(true);
-	vw_setup(12000);
+	vw_setup(8000);
 	vw_rx_start();
 
 	pinMode(led_pin, OUTPUT);
